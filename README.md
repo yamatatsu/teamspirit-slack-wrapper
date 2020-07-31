@@ -1,0 +1,1 @@
+# teamspirit-slack-wrapper
