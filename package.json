@@ -1,0 +1,15 @@
+{
+  "name": "teamspirit-slack-wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yamatatsu/teamspirit-slack-wrapper.git",
+  "author": "yamatatsu <the.kinnikuman@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.8",
+    "@types/node": "^14.0.27",
+    "jest": "^26.2.2",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  }
+}

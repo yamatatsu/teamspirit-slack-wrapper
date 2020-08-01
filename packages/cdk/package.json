@@ -1,0 +1,24 @@
+{
+  "name": "cdk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "synth": "cdk synth",
+    "deploy": "cdk deploy",
+    "diff": "cdk diff"
+  },
+  "dependencies": {
+    "@aws-cdk/assert": "^1.55.0",
+    "@aws-cdk/aws-apigatewayv2": "^1.55.0",
+    "@aws-cdk/aws-dynamodb": "^1.55.0",
+    "@aws-cdk/aws-iam": "^1.55.0",
+    "@aws-cdk/aws-lambda": "^1.55.0",
+    "@aws-cdk/aws-s3": "^1.55.0",
+    "@aws-cdk/aws-secretsmanager": "^1.55.0",
+    "@aws-cdk/aws-wafv2": "^1.55.0",
+    "@aws-cdk/core": "^1.55.0",
+    "aws-cdk": "^1.55.0",
+    "ts-node": "^8.10.2"
+  }
+}
