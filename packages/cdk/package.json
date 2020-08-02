@@ -6,7 +6,8 @@
   "scripts": {
     "synth": "cdk synth",
     "deploy": "cdk deploy",
-    "diff": "cdk diff"
+    "diff": "cdk diff",
+    "test": "jest"
   },
   "dependencies": {
     "@aws-cdk/assert": "^1.55.0",
@@ -20,5 +21,10 @@
     "@aws-cdk/core": "^1.55.0",
     "aws-cdk": "^1.55.0",
     "ts-node": "^8.10.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.8",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4"
   }
 }
