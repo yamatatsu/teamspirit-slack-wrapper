@@ -16,6 +16,8 @@ export class BotStack extends cdk.Stack {
       code,
       handler: "index.handler",
       runtime: lambda.Runtime.NODEJS_12_X,
+      timeout: cdk.Duration.seconds(30),
+      memorySize: 1600,
       tracing: lambda.Tracing.ACTIVE,
     })
   }
